@@ -62,7 +62,7 @@ export default function portfolio() {
                             <p>{d.desc}</p>
                         </div>
                         <div className="button">
-                            <button> <a href = {d.github} target = "_blank">Show code </a></button>
+                            <a href = {d.github} target = "_blank"><button> Show code </button></a>
                         </div>
                         
                     </div>
