@@ -4,10 +4,14 @@ import { useEffect, useState } from "react";
 import {JavaProjects,PythonProjects,Reactprojects} from "../../projects.js";
 
 export default function portfolio() {
-    const [selected, setSelected] = useState("Java");
+    const [selected, setSelected] = useState("React");
     const [data, setData] = useState([]);
 
     const list = [
+        {
+            id : "React",
+            title: "React",
+        },
         {
             id : "Java",
             title: "Java",
@@ -16,10 +20,7 @@ export default function portfolio() {
             id : "Python",
             title: "Python",
         },
-        {
-            id : "React",
-            title: "React",
-        },
+        
     ];
 
     useEffect(()=>{

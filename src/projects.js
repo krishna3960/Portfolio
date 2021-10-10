@@ -33,8 +33,8 @@ export const Reactprojects = [
         id : 1 ,
         title : "Personal Portfolio React",
         desc : "This is a personal portfolio I built from Scratch using React",
-        img : "https://icon-library.com/images/twitter-small-icon/twitter-small-icon-17.jpg",
-        github : "https://github.com/krishna3960/YBHackathon",
+        img : "assets/portfolio.png",
+        github : "https://github.com/krishna3960/Portfolio/tree/master",
     },
     {
         id : 2 ,
