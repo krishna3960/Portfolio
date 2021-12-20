@@ -32,6 +32,7 @@
             align-items: center;
             justify-content: center;
             flex-wrap: wrap;
+            margin-top: 40px;
 
             .item{
                 width: 450px;
@@ -68,6 +69,23 @@
                         h3 {
                         font-size: 20px;
                         height: 80px;
+                        }
+                    }
+
+                    .technologies {
+                        display: flex;
+                        justify-content: space-evenly;
+                        text-align: center;
+                        width: 100%;
+
+                        p {
+                            border: 1px solid black;
+                            padding: 10px;
+                            border-radius: 20px;
+                            color: black;
+                            background-color:  rgb(182, 178, 178) ;
+                            opacity: 0.8;
+                            margin-bottom: 10px;
                         }
                     }
 

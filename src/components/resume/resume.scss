@@ -1,0 +1,85 @@
+
+.resume {
+    background-color: grey;
+.page {
+    background-color: white;
+    height: 90%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2.5%;
+
+    .header {
+        width: 100%;
+        height: 100px;
+       
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+
+        .title {
+            font-size: 32px;
+        }
+    }
+
+    .body {
+        width: 60%;
+        margin-left: 20%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+
+        .section_type_1 {
+            
+            .title {
+                font-weight: bold;
+                padding: 5px;
+                text-align: center;
+            }
+            .content {
+                padding-left: 5px;
+            }
+        }
+
+        .section_type_2 {
+            width: 99%;
+           
+            .title {
+                font-size: 24px;
+                font-weight: bold;
+                padding: 5px;
+                text-align: center;
+            }
+            .block {
+                display: flex; 
+                margin: 5px;
+                
+            
+                .prefix {
+                    border-right: 1px solid black;
+                    padding-right: 5px;  
+                    width: 20%;   
+                               
+                }
+                .blockcontent {
+                    display: flex;
+                    flex-direction: column;
+                    width: 99%;
+                    .blocktitle {
+                        padding-left: 10px;
+                        font-weight: bold;
+                    }
+                .content {
+                    padding-left: 10px;
+                }
+            }
+            }
+        }
+    }
+
+}
+}

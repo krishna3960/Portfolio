@@ -1,6 +1,7 @@
 import "./Topbar.scss"
 import {Person, Mail} from "@material-ui/icons";
-import Switch from '@material-ui/core/Switch';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { useState } from "react";
 
 export default function Topbar({menuOpen, setMenuOpen}) {
@@ -16,8 +17,23 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                 </div>
                 <div className="itemcontainer">
                    <Mail classname="icon"/> 
-                   <span>krishna.lemoing@yahoo.com</span>
+                   <span>krishna.lemoing@unifr.ch</span>
                 </div>
+               
+                <div className="itemcontainer">
+                <a href="https://github.com/krishna3960" target="_blank">
+                   <GitHubIcon classname="icon"/> 
+                   <span>GitHub</span>
+                   </a>
+                </div>
+               
+                <div className="itemcontainer">
+                    <a href="https://www.linkedin.com/in/krishna-le-moing/" target="_blank">
+                   <LinkedInIcon classname="icon"/> 
+                   <span>LinkedIn</span>
+                   </a>
+                </div>
+                
                 </div>
                 
               
