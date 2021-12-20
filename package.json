@@ -17,7 +17,8 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2",
-    "homepage": "https://krishna3960.github.io/portfolio/"
+    "homepage": "https://krishna3960.github.io/Portfolio/"
+  
   },
   "scripts": {
     "start": "react-scripts start",
